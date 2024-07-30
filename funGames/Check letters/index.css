@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 50px 0;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.guess-game {
+  display: flex;
+  width: 1000px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.guess-game .key-colors {
+  padding: 20px;
+  background: #fff;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.guess-game .key-colors .key.in-place {
+  width: 30px;
+  height: 30px;
+  background-color: #f89e13;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.guess-game .key-colors .key.not-in {
+  width: 30px;
+  height: 30px;
+  background-color: #18ba89;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.guess-game .key-colors .key.not {
+  width: 30px;
+  height: 30px;
+  background-color: #27303f;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.guess-game .key-colors .text {
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.inputs > div {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputs span {
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.inputs .disapled-inputs {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.inputs input {
+  margin-left: 5px;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  text-align: center;
+  caret-color: #ef3449;
+  color: #ef3449;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid black;
+}
+.inputs input:focus {
+  outline-color: #ccc;
+}
+.inputs input.yes-in-place {
+  background-color: #f89e13;
+  color: #fff;
+  border-bottom: 0;
+}
+.inputs input.not-in {
+  color: #fff;
+  background-color: #18ba89;
+  border-bottom: 0;
+}
+.inputs input.not {
+  color: #fff;
+  background-color: #27303f;
+  border-bottom: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.controls button {
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.check {
+  flex-basis: 75%;
+  padding: 15px 0px;
+  background-color: #f44336;
+  margin-right: 10px;
+}
+
+.disabled {
+  background-color: #a6a4a4;
+  pointer-events: none;
+}
+
+.hint {
+  flex-basis: 25%;
+  background-color: #18ba89;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.message p {
+  font-size: 25px;
+  font-weight: 700;
+}
+.message span {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ef3449;
+}/*# sourceMappingURL=index.css.map */

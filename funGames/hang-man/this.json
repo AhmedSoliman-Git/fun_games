@@ -1,0 +1,21 @@
+[
+    {
+        "programming":["php","Html","Js","NodeJs","Python","Css"],
+        "Movies":["hulk","spider man","hankok","venom","nemo","Mission Impossible"],
+       " Effective_ people":["Osama Elzero","Ahemd Abo zaid","Amir Mounir","Mohammed Yasser"]
+
+    } ,{
+        "FootBall_Players":["Ronaldo","Messi","Benzema","AboTreaka","Salah","Mane"],
+        "Countries":["Egypt","Franse","Usa","Emirates","Saudi"," Sudan"],
+       "Fruits":["Banana","Apple","Orange","Water Melon"]
+
+    },
+    {
+        "Actors":["Ahmed Helmy","Henedi","Adel Emam","Elsaka","the Rock","van Disel"],
+        "singers":["Hamada Helal","Mm","Hamza Namira"],
+       "Friends":["Mokhtar","Elgammal","Mostafa","Muhammed","Omar"]
+
+    }
+    
+    
+]

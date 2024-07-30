@@ -1,0 +1,181 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.game-info{
+    width: 900px;
+    margin: auto;
+    background-color: #ebebeb;
+    padding: 10px;
+}
+.main-Title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.Question {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.Question h2 {
+    margin: 0px;
+}
+.div{
+    display: flex;
+    font-size: 20px;
+    background-color: white;
+}
+.div input[type="Radio"]{
+    display: block;
+    margin: 20px;
+    
+
+}
+.div label{
+    display: block;
+    margin: 10px;
+    font-weight: bolder;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttons {
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    background-color: #1993cc;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
+.ourS{
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+}
+.ourS .spans {
+    display: flex;
+}
+
+
+
+@media(max-width:992px){
+    .game-info{
+        width: 760px;
+    }
+}
+@media(max-width:768px){
+    .game-info{
+        width: 600px;
+    }
+}
+@media(max-width:765px){
+    .game-info{
+        width: 400px;
+    }
+} 
+.cotcher {
+   
+    margin: auto;
+
+}
+.Radio_Selction{
+    display: flex;
+    align-items: center;
+    font-family: math;
+    position: relative;
+}
+.Radio_Selction:not(:first-child):after{
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+
+.div{
+    display: block;
+}
+.on{
+    background-color: #1993cc;
+   
+}
+
+
+.done{
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px
+}
+.done.on{
+    background-color: #1993cc;
+
+}
+.spans span:first-child{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: #1993cc;
+
+}
+input[type="radio"]:checked+label{
+color: #16678d;
+}
+.stop {
+    pointer-events: none;
+    background-color: #ccc;
+    color: #777;
+}
+.date{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+#RightCount{
+    font-weight: bold;
+    color: #16678d;
+}
+.msg{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: none;
+
+}
+.TheMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 387px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px #000e80;
+    background-color: #0096883b;
+    text-align: center;
+    font-size: 68px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #009688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}

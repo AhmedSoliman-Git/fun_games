@@ -1,0 +1,75 @@
+[
+{
+    "Title":"Why we use <br> ?",
+    "answer1":"to make a break line",
+    "answer2":"to make a space",
+    "answer3":"To make a table",
+    "answer4":"to make a line", 
+    "rightAnswer":"to make a break line"
+
+},
+{
+    "Title":"Why we use <hr>?",
+    "answer1":"to make a break line ",
+    "answer2":"to make a space",
+    "answer3":"To make a table",
+    "answer4":"to make a line",
+    "rightAnswer":"to make a line"
+},
+{
+    "Title":"Why we use <Header>?",
+    "answer1":"to make a break line ",
+    "answer2":"to make a space",
+    "answer3":"To make a table",
+    "answer4":"to make a nav for page",
+    "rightAnswer":"to make a nav for page"
+},
+{
+    "Title":"Why we use <td>?",
+    "answer1":"to make a break line",
+    "answer2":"to make a space",
+    "answer3":"To make a table",
+    "answer4":"to make a line",
+    "rightAnswer":"To make a table"
+},
+{
+    "Title":"Why we use <style>",
+    "answer1":"to make the style for page",
+    "answer2":"to make a space",
+    "answer3":"To make a span",
+    "answer4":"to make a line",
+    "rightAnswer":"to make the style for page"
+},
+{
+    "Title":"Why we use <th>?",
+    "answer1":"to make a break line ",
+    "answer2":"to make a space",
+    "answer3":"To make the heading of table",
+    "answer4":"to make a line",
+    "rightAnswer":"To make the heading of table"
+},
+{
+    "Title":"Why we use <body>?",
+    "answer1":"to make a break line ",
+    "answer2":"to write our code in side it",
+    "answer3":"To make a table",
+    "answer4":"to make a line",
+    "rightAnswer":"to write our code in side it"
+},
+{
+    "Title":"Why we use Js?",
+    "answer1":"To make a break line ",
+    "answer2":"To make a Web page",
+    "answer3":"To make a table",
+    "answer4":"To make a line",
+    "rightAnswer":"To make a Web page"
+},
+{
+    "Title":"Why we use <Div>?",
+    "answer1":"To make a break line ",
+    "answer2":"To make a space",
+    "answer3":"To write a lot of codes inside it",
+    "answer4":"To make a line",
+    "rightAnswer":"To write a lot of codes inside it"
+}
+]
